@@ -16,6 +16,15 @@ untar hadoop 3
 ```
 tar -zxvf hadoop-3.3.5.tar.gz
 ```
+```nano ~/.bash_profile```
+```
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"
+export PATH=$PATH:$JAVA_HOME/bin
+
+export HADOOP_HOME=/Users/imranchaush/hadoop-3.3.5
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+```
+
 configet .zprofile
 ```
 nano ~/.zprofile
