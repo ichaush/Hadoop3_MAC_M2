@@ -19,7 +19,9 @@ nano ~/.zprofile
 ```
 set JAVA_HOME 
 ```
-JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"
+#JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home
+
 ```
 ```
 cd /Library/Java/JavaVirtualMachines/
