@@ -17,7 +17,10 @@ Or use this command
 ```
 nano ~/.zprofile
 ```
-set JAVA_HOME
+set JAVA_HOME 
 ```
-
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"
+```
+```
+echo $JAVA_HOME
 ```
