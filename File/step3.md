@@ -4,6 +4,14 @@ download
 ```
 wget https://dlcdn.apache.org/hadoop/common/hadoop-3.3.5/hadoop-3.3.5.tar.gz
 ```
+Run the following command
+```
+brew install wget
+```
+After the installation is complete, you should be able to use the wget command without any issues. Test it by running:
+```
+wget --version
+```
 untar hadoop 3
 ```
 tar -zxvf hadoop-3.3.5.tar.gz
